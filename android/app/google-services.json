@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "842433810589",
+    "project_id": "uniwave-824e9",
+    "storage_bucket": "uniwave-824e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842433810589:android:903889d48abb66fec8c474",
+        "android_client_info": {
+          "package_name": "com.example.poca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0QER4YRSTHahAV7UO-cbdZm8dBByToas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842433810589:android:c7a1ee4d359ddc6dc8c474",
+        "android_client_info": {
+          "package_name": "com.example.uni_wave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0QER4YRSTHahAV7UO-cbdZm8dBByToas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
