@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:poca/models/audio_book.dart';
-import 'package:poca/screens/home_screen.dart';
-import 'package:poca/screens/login_screen.dart';
-import 'package:poca/screens/main_screen.dart';
-import 'package:poca/screens/on_board_screen.dart';
-import 'package:poca/screens/sign_up_screen.dart';
+import 'package:poca_book/models/audio_book.dart';
+import 'package:poca_book/screens/home_screen.dart';
+import 'package:poca_book/screens/login_screen.dart';
+import 'package:poca_book/screens/main_screen.dart';
+import 'package:poca_book/screens/on_board_screen.dart';
+import 'package:poca_book/screens/sign_up_screen.dart';
 
 import '../screens/audio_book_detail_screen.dart';
 import '../screens/splash_screen.dart';

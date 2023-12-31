@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:poca/widgets/header_custom.dart';
+import 'package:poca_book/widgets/header_custom.dart';
 
 class BaseScreen extends StatelessWidget {
   const BaseScreen({super.key, required this.child, required this.title});

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:poca/configs/app_configs.dart';
-import 'package:poca/models/history_podcast.dart';
-import 'package:poca/providers/preference_provider.dart';
+import 'package:poca_book/configs/app_configs.dart';
+import 'package:poca_book/models/history_podcast.dart';
+import 'package:poca_book/providers/preference_provider.dart';
 
 class HistoryPodcastProvider {
   HistoryPodcastProvider._privateConstructor();

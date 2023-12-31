@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/features/blocs/explore_cubit.dart';
-import 'package:poca/features/explores/item_search.dart';
-import 'package:poca/features/explores/search_field.dart';
-import 'package:poca/screens/base_screen.dart';
-import 'package:poca/widgets/custom_text_field.dart';
-import 'package:poca/widgets/loading_progress.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/features/blocs/explore_cubit.dart';
+import 'package:poca_book/features/explores/item_search.dart';
+import 'package:poca_book/features/explores/search_field.dart';
+import 'package:poca_book/screens/base_screen.dart';
+import 'package:poca_book/widgets/custom_text_field.dart';
+import 'package:poca_book/widgets/loading_progress.dart';
 
 import '../utils/resizable.dart';
 

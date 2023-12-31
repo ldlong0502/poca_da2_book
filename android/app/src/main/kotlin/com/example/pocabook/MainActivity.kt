@@ -1,4 +1,4 @@
-package com.example.poca
+package com.example.pocabook
 
 import io.flutter.embedding.android.FlutterActivity
 

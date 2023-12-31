@@ -2,9 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:poca/models/audio_book.dart';
-import 'package:poca/models/mp3.dart';
-import 'package:poca/models/user_model.dart';
+import 'package:poca_book/models/audio_book.dart';
+import 'package:poca_book/models/mp3.dart';
+import 'package:poca_book/models/user_model.dart';
 
 import '../../models/comment.dart';
 import '../../models/ebook.dart';

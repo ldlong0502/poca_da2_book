@@ -3,12 +3,12 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
-import 'package:poca/features/blocs/player_cubit.dart';
-import 'package:poca/features/blocs/subscribe_cubit.dart';
-import 'package:poca/features/dialogs/recently_bottom_sheet.dart';
-import 'package:poca/features/dialogs/subcsribe_bottom_sheet.dart';
-import 'package:poca/features/podcast/podcast_detail_view.dart';
-import 'package:poca/utils/dialogs.dart';
+import 'package:poca_book/features/blocs/player_cubit.dart';
+import 'package:poca_book/features/blocs/subscribe_cubit.dart';
+import 'package:poca_book/features/dialogs/recently_bottom_sheet.dart';
+import 'package:poca_book/features/dialogs/subcsribe_bottom_sheet.dart';
+import 'package:poca_book/features/podcast/podcast_detail_view.dart';
+import 'package:poca_book/utils/dialogs.dart';
 
 import '../configs/constants.dart';
 import '../features/blocs/recently_play_cubit.dart';

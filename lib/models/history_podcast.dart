@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:poca/models/podcast.dart';
+import 'package:poca_book/models/podcast.dart';
 
 class HistoryPodcast {
   final Podcast podcast;

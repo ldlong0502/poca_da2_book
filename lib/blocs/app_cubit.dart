@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-import 'package:poca/screens/account_screen.dart';
-import 'package:poca/screens/home_screen.dart';
-import 'package:poca/screens/topic_screen.dart';
+import 'package:poca_book/screens/account_screen.dart';
+import 'package:poca_book/screens/home_screen.dart';
+import 'package:poca_book/screens/topic_screen.dart';
 
 class AppCubit extends Cubit<int> {
   AppCubit() : super(0);

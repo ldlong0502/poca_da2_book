@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/features/topics/topic_detail_view.dart';
-import 'package:poca/routes/app_routes.dart';
-import 'package:poca/utils/navigator_custom.dart';
+import 'package:poca_book/features/topics/topic_detail_view.dart';
+import 'package:poca_book/routes/app_routes.dart';
+import 'package:poca_book/utils/navigator_custom.dart';
 
 import '../configs/constants.dart';
 import '../features/blocs/topic_cubit.dart';

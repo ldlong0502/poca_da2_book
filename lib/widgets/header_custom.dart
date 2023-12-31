@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/features/blocs/user_cubit.dart';
-import 'package:poca/models/user_model.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/features/blocs/user_cubit.dart';
+import 'package:poca_book/models/user_model.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 class HeaderCustom extends StatelessWidget {
   const HeaderCustom({super.key, required this.title});

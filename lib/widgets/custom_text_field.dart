@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/features/blocs/password_cubit.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/features/blocs/password_cubit.dart';
 
 import '../utils/resizable.dart';
 

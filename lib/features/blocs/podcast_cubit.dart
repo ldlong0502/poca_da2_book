@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:poca/features/blocs/player_cubit.dart';
-import 'package:poca/models/podcast.dart';
-import 'package:poca/providers/api/api_podcast.dart';
-import 'package:poca/utils/custom_toast.dart';
+import 'package:poca_book/features/blocs/player_cubit.dart';
+import 'package:poca_book/models/podcast.dart';
+import 'package:poca_book/providers/api/api_podcast.dart';
+import 'package:poca_book/utils/custom_toast.dart';
 
 import '../../models/user_model.dart';
 import '../../providers/api/api_espisode.dart';

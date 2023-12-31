@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/features/account/edit_account.dart';
-import 'package:poca/features/account/none_account_view.dart';
-import 'package:poca/features/blocs/user_cubit.dart';
-import 'package:poca/models/user_model.dart';
-import 'package:poca/routes/app_routes.dart';
-import 'package:poca/screens/base_screen.dart';
-import 'package:poca/screens/playlist_screen.dart';
-import 'package:poca/utils/dialogs.dart';
-import 'package:poca/utils/navigator_custom.dart';
-import 'package:poca/utils/resizable.dart';
-import 'package:poca/widgets/custom_button.dart';
+import 'package:poca_book/features/account/edit_account.dart';
+import 'package:poca_book/features/account/none_account_view.dart';
+import 'package:poca_book/features/blocs/user_cubit.dart';
+import 'package:poca_book/models/user_model.dart';
+import 'package:poca_book/routes/app_routes.dart';
+import 'package:poca_book/screens/base_screen.dart';
+import 'package:poca_book/screens/playlist_screen.dart';
+import 'package:poca_book/utils/dialogs.dart';
+import 'package:poca_book/utils/navigator_custom.dart';
+import 'package:poca_book/utils/resizable.dart';
+import 'package:poca_book/widgets/custom_button.dart';
 
 import '../configs/constants.dart';
 import '../providers/api/api_auth.dart';

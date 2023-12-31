@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:poca/models/episode.dart';
-import 'package:poca/models/playlist.dart';
-import 'package:poca/models/topic.dart';
-import 'package:poca/models/user_model.dart';
-import 'package:poca/providers/api/api_provider.dart';
-import 'package:poca/providers/preference_provider.dart';
-import 'package:poca/providers/user/user_provider.dart';
+import 'package:poca_book/models/episode.dart';
+import 'package:poca_book/models/playlist.dart';
+import 'package:poca_book/models/topic.dart';
+import 'package:poca_book/models/user_model.dart';
+import 'package:poca_book/providers/api/api_provider.dart';
+import 'package:poca_book/providers/preference_provider.dart';
+import 'package:poca_book/providers/user/user_provider.dart';
 
 import '../../models/podcast.dart';
 

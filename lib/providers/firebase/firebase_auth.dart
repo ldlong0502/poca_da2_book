@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:poca_book/models/user_model.dart';
 import 'package:poca_book/providers/api/api_provider.dart';
@@ -7,29 +8,23 @@ import 'package:poca_book/utils/custom_toast.dart';
 
 import '../../routes/app_routes.dart';
 
-class ApiAuthentication {
-  ApiAuthentication._privateConstructor();
+class FirebaseAuthentication {
+  FirebaseAuthentication._privateConstructor();
 
-  static final ApiAuthentication _instance = ApiAuthentication._privateConstructor();
+  static final FirebaseAuthentication _instance = FirebaseAuthentication._privateConstructor();
 
-  static ApiAuthentication get instance => _instance;
+  static FirebaseAuthentication get instance => _instance;
+  final db = FirebaseFirestore.instance;
 
-  Future<bool> login(String username, String password) async {
-    var response = await ApiProvider().post('/auth/login', data:  {
-      'username': username,
-      'password': password,
-    });
-    if(response == null) return false;
-    if(response.statusCode == 200) {
-      debugPrint(response.toString());
-      await PreferenceProvider.instance.setString('access_token', response.data['accessToken']);
-      await PreferenceProvider.instance.setString('refresh_token', response.data['refreshToken']);
-      await PreferenceProvider.instance.saveJsonToPrefs(response.data['data'] , 'user');
-
-      return true;
-    } else {
-      return false;
+  Future<UserModel?> login(String email, String password) async {
+    final snapshot =
+    await db.collection("user").where('email', isEqualTo: email ).where('password', isEqualTo: password ).get();
+    var model = snapshot.docs.map((e) => UserModel.fromJson(e.data())).singleOrNull;
+    if(model != null) {
+      await PreferenceProvider.instance.saveJsonToPrefs( model.toJson(), 'user');
     }
+    return model;
+
   }
   Future<bool> signUp(String email, String fullName , String username, String dob, String password) async {
 
@@ -57,7 +52,7 @@ class ApiAuthentication {
     if(context.mounted){
       CustomToast.showBottomToast(context, 'Log out successfully!');
       Navigator.of(context, rootNavigator: true).pushNamedAndRemoveUntil(
-          AppRoutes.splash, (route) => false,);
+        AppRoutes.splash, (route) => false,);
     }
     return true;
 

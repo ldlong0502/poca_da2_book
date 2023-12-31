@@ -1,8 +1,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/models/user_model.dart';
-import 'package:poca/providers/firebase_provider.dart';
+import 'package:poca_book/models/user_model.dart';
+import 'package:poca_book/providers/firebase_provider.dart';
 
 import '../models/comment.dart';
 

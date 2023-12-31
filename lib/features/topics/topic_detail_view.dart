@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/features/blocs/topic_detail_cubit.dart';
-import 'package:poca/features/podcast/podcast_detail_view.dart';
-import 'package:poca/models/topic.dart';
-import 'package:poca/routes/app_routes.dart';
-import 'package:poca/utils/navigator_custom.dart';
+import 'package:poca_book/features/blocs/topic_detail_cubit.dart';
+import 'package:poca_book/features/podcast/podcast_detail_view.dart';
+import 'package:poca_book/models/topic.dart';
+import 'package:poca_book/routes/app_routes.dart';
+import 'package:poca_book/utils/navigator_custom.dart';
 
 import '../../configs/constants.dart';
 import '../../screens/base_screen.dart';

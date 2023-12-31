@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/models/history_podcast.dart';
-import 'package:poca/utils/convert_utils.dart';
-import 'package:poca/utils/resizable.dart';
-import 'package:poca/widgets/loading_progress.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/models/history_podcast.dart';
+import 'package:poca_book/utils/convert_utils.dart';
+import 'package:poca_book/utils/resizable.dart';
+import 'package:poca_book/widgets/loading_progress.dart';
 
 class DeletePlaylistDialog extends StatelessWidget {
   const DeletePlaylistDialog({super.key, required this.onDelete});

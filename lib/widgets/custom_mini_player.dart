@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:miniplayer/miniplayer.dart';
-import 'package:poca/blocs/mini_player_cubit.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/features/audio_book/max_player_audio_book.dart';
-import 'package:poca/features/blocs/player_cubit.dart';
-import 'package:poca/features/players/max_player_podcast.dart';
-import 'package:poca/features/players/min_player_podcast.dart';
+import 'package:poca_book/blocs/mini_player_cubit.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/features/audio_book/max_player_audio_book.dart';
+import 'package:poca_book/features/blocs/player_cubit.dart';
+import 'package:poca_book/features/players/max_player_podcast.dart';
+import 'package:poca_book/features/players/min_player_podcast.dart';
 
 import '../features/audio_book/mini_player_audio_book.dart';
 import '../utils/resizable.dart';

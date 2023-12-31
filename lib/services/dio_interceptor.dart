@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:poca/providers/preference_provider.dart';
+import 'package:poca_book/providers/preference_provider.dart';
 
 class DioInterceptor extends Interceptor {
   DioInterceptor(this.dio);

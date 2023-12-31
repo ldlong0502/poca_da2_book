@@ -1,7 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 import '../configs/constants.dart';
 

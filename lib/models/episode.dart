@@ -1,4 +1,4 @@
-import 'package:poca/models/user_model.dart';
+import 'package:poca_book/models/user_model.dart';
 
 class Episode {
   final String id;

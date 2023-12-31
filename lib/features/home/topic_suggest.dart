@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/features/blocs/home_cubit.dart';
-import 'package:poca/features/home/title_see_all.dart';
-import 'package:poca/widgets/network_image_custom.dart';
+import 'package:poca_book/features/blocs/home_cubit.dart';
+import 'package:poca_book/features/home/title_see_all.dart';
+import 'package:poca_book/widgets/network_image_custom.dart';
 
 import '../../configs/constants.dart';
 import '../../routes/app_routes.dart';

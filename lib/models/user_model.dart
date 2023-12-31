@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:intl/intl.dart';
+import 'package:poca_book/utils/convert_utils.dart';
 
 class UserModel {
   final String id;
@@ -9,9 +11,7 @@ class UserModel {
   final DateTime dateOfBirth;
   final String imageUrl;
   final bool isAdmin;
-  final DateTime createdAt;
-  final DateTime updatedAt;
-  final int v;
+
 
   UserModel({
     required this.id,
@@ -22,40 +22,31 @@ class UserModel {
     required this.dateOfBirth,
     required this.imageUrl,
     required this.isAdmin,
-    required this.createdAt,
-    required this.updatedAt,
-    required this.v,
   });
 
   factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
-      id: json['_id'],
-      username: json['username'],
-      email: json['email'],
-      password: json['password'],
-      fullName: json['fullName'],
-      dateOfBirth: DateTime.parse(json['dateOfBirth']),
-      imageUrl: json['imageUrl'],
-      isAdmin: json['isAdmin'],
-      createdAt: DateTime.parse(json['createdAt']),
-      updatedAt: DateTime.parse(json['updatedAt']),
-      v: json['__v'],
+      id: json['user_id'] ?? '',
+      username: json['username'] ?? '',
+      email: json['email'] ?? '',
+      password: json['password'] ?? '',
+      fullName: json['fullName'] ?? '',
+      dateOfBirth: DateFormat('dd-MM-yyyy').parse(json['dateOfBirth']),
+      imageUrl: json['imageUrl'] ?? '',
+      isAdmin: json['isAdmin']?? false,
     );
   }
 
   Map<String, dynamic> toJson() {
     return {
-      '_id': id,
+      'user_id': id,
       'username': username,
       'email': email,
       'password': password,
       'fullName': fullName,
-      'dateOfBirth': dateOfBirth.toIso8601String(),
+      'dateOfBirth': ConvertUtils.convertDob(dateOfBirth),
       'imageUrl': imageUrl,
       'isAdmin': isAdmin,
-      'createdAt': createdAt.toIso8601String(),
-      'updatedAt': updatedAt.toIso8601String(),
-      '__v': v,
     };
   }
 
@@ -68,9 +59,6 @@ class UserModel {
     DateTime? dateOfBirth,
     String? imageUrl,
     bool? isAdmin,
-    DateTime? createdAt,
-    DateTime? updatedAt,
-    int? v,
   }) {
     return UserModel(
       id: id ?? this.id,
@@ -81,9 +69,6 @@ class UserModel {
       dateOfBirth: dateOfBirth ?? this.dateOfBirth,
       imageUrl: imageUrl ?? this.imageUrl,
       isAdmin: isAdmin ?? this.isAdmin,
-      createdAt: createdAt ?? this.createdAt,
-      updatedAt: updatedAt ?? this.updatedAt,
-      v: v ?? this.v,
     );
   }
 }

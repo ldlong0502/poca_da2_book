@@ -3,9 +3,9 @@ import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:poca/blocs/comment_cubit.dart';
-import 'package:poca/utils/custom_toast.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/blocs/comment_cubit.dart';
+import 'package:poca_book/utils/custom_toast.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 import '../blocs/mini_player_cubit.dart';
 import '../configs/constants.dart';

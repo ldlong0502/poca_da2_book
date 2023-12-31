@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 class EmptyComment extends StatelessWidget {
   const EmptyComment({super.key});

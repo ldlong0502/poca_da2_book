@@ -5,17 +5,17 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:miniplayer/miniplayer.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-import 'package:poca/configs/app_configs.dart';
-import 'package:poca/features/blocs/recently_play_cubit.dart';
-import 'package:poca/models/audio_book.dart';
-import 'package:poca/models/duration_state.dart';
-import 'package:poca/models/mp3.dart';
-import 'package:poca/models/podcast.dart';
-import 'package:poca/providers/api/api_espisode.dart';
-import 'package:poca/providers/preference_provider.dart';
-import 'package:poca/services/history_services.dart';
-import 'package:poca/services/sound_service.dart';
-import 'package:poca/utils/custom_toast.dart';
+import 'package:poca_book/configs/app_configs.dart';
+import 'package:poca_book/features/blocs/recently_play_cubit.dart';
+import 'package:poca_book/models/audio_book.dart';
+import 'package:poca_book/models/duration_state.dart';
+import 'package:poca_book/models/mp3.dart';
+import 'package:poca_book/models/podcast.dart';
+import 'package:poca_book/providers/api/api_espisode.dart';
+import 'package:poca_book/providers/preference_provider.dart';
+import 'package:poca_book/services/history_services.dart';
+import 'package:poca_book/services/sound_service.dart';
+import 'package:poca_book/utils/custom_toast.dart';
 
 class PlayerCubit extends Cubit<int> {
   PlayerCubit(this.context) : super(0);

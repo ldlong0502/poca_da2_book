@@ -1,6 +1,6 @@
-import 'package:poca/models/episode.dart';
-import 'package:poca/models/topic.dart';
-import 'package:poca/models/user_model.dart';
+import 'package:poca_book/models/episode.dart';
+import 'package:poca_book/models/topic.dart';
+import 'package:poca_book/models/user_model.dart';
 
 class Podcast {
   final String id;

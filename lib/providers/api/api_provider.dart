@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:poca/configs/app_configs.dart';
-import 'package:poca/services/dio_interceptor.dart';
+import 'package:poca_book/configs/app_configs.dart';
+import 'package:poca_book/services/dio_interceptor.dart';
 
 class ApiProvider {
   final Dio _dio = Dio(

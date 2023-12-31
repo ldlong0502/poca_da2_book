@@ -4,8 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:poca/models/audio_book.dart';
-import 'package:poca/providers/firebase/firestore_db.dart';
+import 'package:poca_book/models/audio_book.dart';
+import 'package:poca_book/providers/firebase/firestore_db.dart';
 
 import '../models/comment.dart';
 import '../models/ebook.dart';

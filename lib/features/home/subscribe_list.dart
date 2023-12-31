@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/features/blocs/subscribe_cubit.dart';
-import 'package:poca/features/blocs/user_cubit.dart';
-import 'package:poca/features/home/title_see_all.dart';
-import 'package:poca/features/podcast/podcast_detail_view.dart';
-import 'package:poca/models/podcast.dart';
-import 'package:poca/models/user_model.dart';
+import 'package:poca_book/features/blocs/subscribe_cubit.dart';
+import 'package:poca_book/features/blocs/user_cubit.dart';
+import 'package:poca_book/features/home/title_see_all.dart';
+import 'package:poca_book/features/podcast/podcast_detail_view.dart';
+import 'package:poca_book/models/podcast.dart';
+import 'package:poca_book/models/user_model.dart';
 
 
 import '../../configs/constants.dart';

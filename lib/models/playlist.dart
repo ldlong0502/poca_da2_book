@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
-import 'package:poca/models/episode.dart';
+import 'package:poca_book/models/episode.dart';
 
 class Playlist {
   final String id;

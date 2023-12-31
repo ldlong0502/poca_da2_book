@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/configs/app_configs.dart';
-import 'package:poca/features/blocs/player_cubit.dart';
-import 'package:poca/widgets/custom_button.dart';
+import 'package:poca_book/configs/app_configs.dart';
+import 'package:poca_book/features/blocs/player_cubit.dart';
+import 'package:poca_book/widgets/custom_button.dart';
 
 import '../../configs/constants.dart';
 import '../../routes/app_routes.dart';

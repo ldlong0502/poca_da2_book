@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/models/podcast.dart';
-import 'package:poca/models/user_model.dart';
+import 'package:poca_book/models/podcast.dart';
+import 'package:poca_book/models/user_model.dart';
 
 import '../../providers/api/api_podcast.dart';
 

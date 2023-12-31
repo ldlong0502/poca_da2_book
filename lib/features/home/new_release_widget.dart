@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/features/blocs/home_cubit.dart';
-import 'package:poca/features/blocs/player_cubit.dart';
-import 'package:poca/utils/convert_utils.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/features/blocs/home_cubit.dart';
+import 'package:poca_book/features/blocs/player_cubit.dart';
+import 'package:poca_book/utils/convert_utils.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 import '../../widgets/network_image_custom.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 class ShimmerLoadingComment extends StatelessWidget {
   const ShimmerLoadingComment({super.key});

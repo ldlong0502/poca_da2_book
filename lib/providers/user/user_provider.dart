@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:poca/models/user_model.dart';
+import 'package:poca_book/models/user_model.dart';
 
 class UserProvider {
   UserProvider._privateConstructor();

@@ -1,10 +1,10 @@
 import 'package:expandable_text/expandable_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:poca/blocs/app_bar_audio_book_cubit.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/models/audio_book.dart';
-import 'package:poca/utils/resizable.dart';
+import 'package:poca_book/blocs/app_bar_audio_book_cubit.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/models/audio_book.dart';
+import 'package:poca_book/utils/resizable.dart';
 
 import '../features/audio_book/app_bar_audio_book.dart';
 import '../features/audio_book/audio_catalogue.dart';

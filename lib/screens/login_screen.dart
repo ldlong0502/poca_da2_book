@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:poca/features/blocs/login_cubit.dart';
-import 'package:poca/providers/api/api_auth.dart';
-import 'package:poca/utils/custom_toast.dart';
-import 'package:poca/widgets/custom_text_field.dart';
+import 'package:poca_book/features/blocs/login_cubit.dart';
+import 'package:poca_book/providers/api/api_auth.dart';
+import 'package:poca_book/utils/custom_toast.dart';
+import 'package:poca_book/widgets/custom_text_field.dart';
 
 import '../configs/constants.dart';
 import '../features/dialogs/login_dialog.dart';
+import '../providers/firebase/firebase_auth.dart';
 import '../routes/app_routes.dart';
 import '../utils/resizable.dart';
 import '../widgets/custom_button.dart';
@@ -81,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         CustomTextField(
                             controller: userNameController,
-                            title: 'Username',
+                            title: 'Email',
                             onValidate: (String value) {
                               debugPrint('validate: $value');
                               if(value.isEmpty) {
@@ -138,9 +139,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           }
                           _formKey.currentState!.save();
                           cubit.update(LoginStatus.loading);
-                          var res = await ApiAuthentication.instance.login(
+                          var res = await FirebaseAuthentication.instance.login(
                               userNameController.text, passWordController.text);
-                          if (res) {
+                          if (res != null) {
                             cubit.update(LoginStatus.success);
                           } else {
                             cubit.update(LoginStatus.failed);

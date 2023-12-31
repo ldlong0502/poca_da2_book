@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:poca/configs/constants.dart';
-import 'package:poca/providers/preference_provider.dart';
-import 'package:poca/routes/app_routes.dart';
-import 'package:poca/utils/resizable.dart';
-import 'package:poca/widgets/custom_button.dart';
+import 'package:poca_book/configs/constants.dart';
+import 'package:poca_book/providers/preference_provider.dart';
+import 'package:poca_book/routes/app_routes.dart';
+import 'package:poca_book/utils/resizable.dart';
+import 'package:poca_book/widgets/custom_button.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
